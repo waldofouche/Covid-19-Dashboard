@@ -116,18 +116,18 @@ const IndexPage = () => {
   return (
     <Layout pageName="home">
       <Helmet>
-        <title>Home Page</title>
+        <title>Home: Covid-19 Dashboard</title>
       </Helmet>
 
       <Map {...mapSettings}></Map>
 
       <Container type="content" className="text-center home-start">
-        <h2>Still Getting Started?</h2>
-        <p>Run the following in your terminal!</p>
+        <h2>Hi Ella!</h2>
+        <p>Welcome to a simple Covid-19 Tracker</p>
         <pre>
-          <code>gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-leaflet</code>
+          <code></code>
         </pre>
-        <p className="note">Note: Gatsby CLI required globally for the above command</p>
+        <p className="note"></p>
       </Container>
     </Layout>
   );
