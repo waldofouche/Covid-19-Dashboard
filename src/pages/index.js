@@ -113,24 +113,24 @@ const IndexPage = () => {
     mapEffect
   };
 
-  return (
-    <Layout pageName="home">
-      <Helmet>
-        <title>Home: Covid-19 Dashboard</title>
-      </Helmet>
+    return (
+        <Layout pageName="home">
+            <Helmet>
+                <title>Home: Covid-19 Dashboard</title>
+            </Helmet>
 
-      <Map {...mapSettings}></Map>
+            <Map {...mapSettings}></Map>
 
-      <Container type="content" className="text-center home-start">
-        <h2>Hi Ella!</h2>
-        <p>Welcome to a simple Covid-19 Tracker</p>
-        <pre>
+            <Container type="content" className="text-center home-start">
+                <h2></h2>
+                <p>Welcome to a simple Covid-19 Tracker</p>
+                <pre>
           <code></code>
         </pre>
-        <p className="note"></p>
-      </Container>
-    </Layout>
-  );
+                <p className="note"></p>
+            </Container>
+        </Layout>
+    );
 };
 
 export default IndexPage;
